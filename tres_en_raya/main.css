@@ -10,7 +10,7 @@ h1 {
 
 #reiniciar {
     transition: opacity 0.7s ease;
-    opacity: 0;
+    opacity: 0.5;
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 20px;
@@ -18,12 +18,13 @@ h1 {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #d4edda;
-    color: #000000;
+    background-color: #464646;
+    color: #8b8b8b;
+    font-family: 'Arial', sans-serif;
 }
 
 .container {
-    width: 600px;
+    max-width: 600px;
     height: 600px;
     display: flex;
     margin: 0 auto;
@@ -43,7 +44,6 @@ h1 {
     width: 100px;
     height: 100px;
     background-color: #303030;
-    border-right: 4px solid #e0e0e0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,6 @@ h1 {
     width: 100px;
     height: 100px;
     background-color: #4e4e4e;
-    border-right: 4px solid #e0e0e0;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -37,6 +37,8 @@ function verificarGanador() {
             narrador.innerHTML = "¡Felicidades! Ganó el jugador " + celdas[a].innerHTML;
             juegoActivo = false;
             botonReiniciar.style.opacity = "1";
+            botonReiniciar.style.backgroundColor = "#d4edda";
+            botonReiniciar.style.color = "#242424ff";
             return;
         }
     }
@@ -46,6 +48,8 @@ function verificarGanador() {
         narrador.innerHTML = "¡Es un empate!";
         juegoActivo = false;
         botonReiniciar.style.opacity = "1";
+        botonReiniciar.style.backgroundColor = "#d4edda";
+        botonReiniciar.style.color = "#242424ff";
     }
 }
 
